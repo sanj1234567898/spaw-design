@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--tertiary-color-m);
+}
+
+.footer__inner {
+  padding: 1rem;
+}
+
+.social__title {
+  text-align: center;
+  font-size: calc(0.5rem + 0.63333vw);
+  color: #fff;
+}
+
+.footer__link {
+  padding-top: calc(0.5vw + 0.5vh);
+  text-align: center;
+}
+
+.footer__link a svg {
+  width: calc(1rem + 0.6333vw);
+  height: calc(1rem + 0.6333vw);
+  color: #fff;
+  text-decoration: underline;
+}

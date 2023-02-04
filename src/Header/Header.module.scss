@@ -1,0 +1,98 @@
+.container__header {
+  max-width: 122rem;
+  margin: 0 auto;
+  padding: calc(1rem + 0.63333vw) 1rem;
+  height: 100%;
+}
+
+.header {
+  background-color: var(--secondary-color);
+}
+
+.active {
+  color: #fff;
+}
+
+.container__inner {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__links {
+  display: flex;
+  gap: 3vw;
+}
+
+.header__link {
+  font-size: calc(1rem + 0.63333vw);
+}
+
+.header__link:hover {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.header__logo {
+  font-size: calc(1rem + 0.63333vw);
+}
+
+.header__btn {
+  display: none;
+}
+
+@media screen and (max-width: 610px) {
+  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Main Nav Header *-*-*-*-**-*-*-*-**-*-*-*-**-*/
+  .menu-open .header__links {
+    overflow-y: hidden;
+    transform: translateY(0%);
+    z-index: 40;
+  }
+
+  .header__logo {
+    z-index: 50;
+  }
+
+  .header__links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: 0.3s ease;
+  }
+
+  .header__btn {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+  }
+
+  .btn-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+
+  .hum-menu svg {
+    height: 70%;
+  }
+}

@@ -1,0 +1,23 @@
+.welcome {
+  padding: 2rem 0;
+  background-image: url("../assets/AdobeStock_177576412.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.welcome__description {
+  max-width: calc(20rem + 15vw);
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.welcome__text {
+  font-size: calc(1.5rem + 0.6333vw);
+  line-height: 1.2;
+  color: #040404;
+  text-align: center;
+}

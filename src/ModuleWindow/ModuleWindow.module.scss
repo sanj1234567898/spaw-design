@@ -1,0 +1,39 @@
+.module {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  max-width: calc(30rem + 25vw);
+  background-color: #fff;
+  border-radius: 2rem;
+  z-index: 0;
+}
+
+.module__inner {
+  position: relative;
+  padding: 2rem;
+}
+
+.module__text {
+  font-size: calc(1.5rem + 0.6333vw);
+  text-align: center;
+}
+
+.module__turnOff {
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.module__turnOff svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #2c2b2b;
+}
+
+.module__turnOff svg:active {
+  scale: 0.98;
+}
+.hidden {
+  display: none;
+}
