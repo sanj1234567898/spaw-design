@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/spaw-design/static/css/main.287ccb14.css",
-    "main.js": "/spaw-design/static/js/main.ce6a9d88.js",
+    "main.js": "/spaw-design/static/js/main.7f532740.js",
     "static/media/AdobeStock_177576412.jpeg": "/spaw-design/static/media/AdobeStock_177576412.58da94ec0dac9e3ced2b.jpeg",
     "static/media/1.jpg": "/spaw-design/static/media/1.2ba6bd7e5614ebdd799a.jpg",
     "static/media/3.jpg": "/spaw-design/static/media/3.eb377f23d8dae305b656.jpg",
     "static/media/2.jpg": "/spaw-design/static/media/2.4299925fdff58fad79e6.jpg",
     "index.html": "/spaw-design/index.html",
     "main.287ccb14.css.map": "/spaw-design/static/css/main.287ccb14.css.map",
-    "main.ce6a9d88.js.map": "/spaw-design/static/js/main.ce6a9d88.js.map"
+    "main.7f532740.js.map": "/spaw-design/static/js/main.7f532740.js.map"
   },
   "entrypoints": [
     "static/css/main.287ccb14.css",
-    "static/js/main.ce6a9d88.js"
+    "static/js/main.7f532740.js"
   ]
 }
